@@ -1,8 +1,7 @@
-var imgCount = 3;
-    var dir = 'images/landscape/';
+var imgCount = 2;
+    var dir = 'images/photos/pandemic_series/';
     var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
     var images = new Array
-            images[1] = "eastonriver_l.jpeg",
-            images[2] = "towerbridge_l.jpeg",
-            images[3] = "stormybridge_l.jpeg",
+            images[1] = "l_rotherite.png",
+            images[2] = "l_tower_bridge.png",
     document.getElementById("landscapeID").style.backgroundImage = "url(" + dir + images[randomCount] + ")";
