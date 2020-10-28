@@ -1,6 +1,8 @@
 body {
-  background-color: fffff2; //Offwhite
+  background-color: fffff2; /*Offwhite*/
   font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+  padding-bottom: 20px;
+  border: 1px solid transparent;
 }
 h1 {
   color: black;
@@ -19,7 +21,7 @@ a:visited{
 }
 
 a:hover{
-  /* text-decoration: underline; */
+  text-decoration: underline;
 }
 
 .header {
@@ -35,17 +37,21 @@ a:hover{
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .navigation a{
+  text-align: center;
   display: inline-block; /*Stack links*/
-  text-decoration: inherit;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-weight: bold;
-  font-size: 14pt
+  font-size: 14pt;
+  border: 2px solid black;
+  outline-width: 10px;
+  margin: 5px;
 }
 
 /*
@@ -75,7 +81,6 @@ a:hover{
 }
 
 .landscapeID {
-  /* background-image: url(../images/landscape/eastonriver_l.jpeg); */
   background-repeat: no-repeat;
   background-size: 100%;
   min-width: 100px;
@@ -183,4 +188,11 @@ input[type=text] {
 .dark-mode {
   background-color: black;
   color: white;
+}
+
+.line {
+    height: 20px;
+    background-color: black;
+    outline-bottom: 10px;
+    outline-top: 10px;
 }
