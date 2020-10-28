@@ -123,6 +123,17 @@ a:hover{
   margin-bottom: 0;
 }
 
+.imgContainer {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+#images{
+    text-align:center;
+}
+
 #flex_wrapper{
   display: flex;
   align-items: center;
