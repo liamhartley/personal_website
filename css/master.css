@@ -36,7 +36,7 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
@@ -54,18 +54,70 @@ a:hover{
   margin: 5px;
 }
 
-/*
-.topnav-right a {
-  display: block;
-  text-align: right;
-  text-decoration: none;
-  padding-top: 30px;
-  padding-right: 40px;
+.about_header p{
+  flex: 0 0 45%;
+  text-align: center;
   padding-bottom: 5px;
-  padding-left: 0px;
+  padding-top: 30px;
+}
+
+.about_list_box a{
+  border: 2px solid black;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  outline-width: 100px;
   font-weight: bold;
-  font-size: 14pt
-} */
+}
+
+.about_list_box {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.thesis_blocks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.thesis_block a{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  display: inline-block; /*Stack links*/
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14pt;
+  border: 2px solid black;
+  margin: 10px;
+  min-width: 100%px;
+  max-width: 250px;
+}
+
+.thesis_block p.blurb{
+  text-align: center;
+  display: inline-block; /*Stack links*/
+  font-size: 12pt;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.thesis_block p.wordcount{
+  text-align: center;
+  display: inline-block; /*Stack links*/
+  font-size: 10pt;
+}
 
  .divID {
    background-image: url(../images/pic1.jpeg);
@@ -88,7 +140,7 @@ a:hover{
   height: auto;
   max-width: 600px;
   max-height: 100%;
-  background-position: center top;
+  background-position: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -144,19 +196,13 @@ a:hover{
   align-items: center;
 }
 
-#about_text{
-  flex: 0 0 45%;
-  /* padding-right: 200px; */
-  text-align: center;
-  padding-bottom: 50px;
-}
-
 #project_text{
   /* flex: 0 0 45%; */
   /* padding-left: 5%; */
   text-align: center;
   padding-bottom: 50px;
 }
+
 
 a:hover span{
     text-decoration:underline;
