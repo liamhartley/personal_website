@@ -141,6 +141,16 @@ a:hover{
   max-width: 800px;
 }
 
+.medium_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-height: 80%;
+  max-width: 400px;
+  padding-top: 50px
+}
+
 .index_image_p {
   display: block;
   margin-left: auto;
@@ -265,4 +275,19 @@ input[type=text] {
     background-color: black;
     outline-bottom: 10px;
     outline-top: 10px;
+}
+
+.responsive_video{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.responsive_video iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
