@@ -291,3 +291,20 @@ input[type=text] {
     width:100%;
     position:absolute;
 }
+
+.glossary_table td{
+    border: 1px solid;
+    padding: 5px;
+}
+.glossary_table table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-responsive {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0px auto;
+  text-align: center;
+}
