@@ -3,7 +3,8 @@ import os
 
 if __name__ == '__main__':
     files_to_upload = [
-        'football.html'
+        'about.html',
+        'datadrivendecisions.html'
     ]
 
     s3 = boto3.resource('s3',
