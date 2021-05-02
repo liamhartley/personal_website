@@ -4,7 +4,8 @@ import os
 if __name__ == '__main__':
     files_to_upload = [
         'about.html',
-        'datadrivendecisions.html'
+        'datadrivendecisions.html',
+        # 'test.html'
     ]
 
     s3 = boto3.resource('s3',
@@ -13,4 +14,7 @@ if __name__ == '__main__':
                         region_name=os.environ['REGION_NAME'])    
     
     for file in files_to_upload:
-        s3.Bucket('www.liamhartley.co.uk').upload_file(f'{os.getcwd()}/{file}', f'{file[:-5]}', ExtraArgs={'Metadata': {'Content-Type': 'text/html'}})
+        print(f'Uploading: {file}')
+        data = open(file, 'rb')
+        bucket = s3.Bucket('www.liamhartley.co.uk')
+        bucket.put_object(Key=f'{file[:-5]}', Body=data, ContentType='text/html')
