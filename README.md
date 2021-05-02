@@ -1,4 +1,4 @@
-A collection of HTML, CSS and Python for my personal website
+A collection of HTML, CSS and Python for my [personal website](www.liamhartley.co.uk)
 
 www.liamhartley.co.uk
 
