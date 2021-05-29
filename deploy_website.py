@@ -4,8 +4,11 @@ import os
 if __name__ == '__main__':
     files_to_upload = [
         'about.html',
-        'datadrivendecisions.html',
-        # 'test.html'
+        # 'football.html',
+        # 'glossary.html',
+        # 'index.html',
+        # 'test.html',
+        # 'datadrivendecisions.html'
     ]
 
     s3 = boto3.resource('s3',
@@ -17,4 +20,9 @@ if __name__ == '__main__':
         print(f'Uploading: {file}')
         data = open(file, 'rb')
         bucket = s3.Bucket('www.liamhartley.co.uk')
-        bucket.put_object(Key=f'{file[:-5]}', Body=data, ContentType='text/html')
+        response = bucket.put_object(Key=f'{file[:-5]}', Body=data, ContentType='text/html')
+        print(response)
+        print(f'Uploaded: {file}')
+        print(f'----------------------------')
+
+    print(f'All files uploaded :)')
