@@ -9,3 +9,5 @@ www.liamhartley.co.uk
 - Create css object for header
 - Clean up master.css
 - Build infrastructure with terraform
+- Betting project pay wall
+- Install Google [Analytics](https://analytics.google.com/)
