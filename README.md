@@ -15,3 +15,4 @@ www.liamhartley.co.uk
 **TODO - not yet in scope**
 - Betting project pay wall 
 - Clean up master.css
+- Add paypal link?
