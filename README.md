@@ -8,6 +8,7 @@ www.liamhartley.co.uk
 - Install Google [Analytics](https://analytics.google.com/) (will require AWS account access, dm me) £30
 - Resize text dynamically for iPad / large screen users £15
 - Create css object for header and replace it in all files £10
+- Re-route http://www.liamhartley.co.uk and www.liamhartley.co.uk traffic to https://www.liamhartley.co.uk £5
 - Build infrastructure with terraform (will require AWS account access, dm me) £30
 
 
