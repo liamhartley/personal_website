@@ -4,9 +4,9 @@ import os
 if __name__ == '__main__':
     files_to_upload = [
         'about.html',
-        # 'football.html',
-        # 'glossary.html',
-        # 'index.html',
+        'football.html',
+        'glossary.html',
+        'index.html',
         # 'test.html',
         # 'datadrivendecisions.html'
     ]
