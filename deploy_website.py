@@ -5,7 +5,7 @@ if __name__ == '__main__':
     files_to_upload = [
         'about.html',
         'football.html',
-        'glossary.html',
+        'writing.html',
         'index.html',
         # 'test.html',
         # 'datadrivendecisions.html'
