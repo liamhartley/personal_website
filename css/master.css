@@ -105,6 +105,23 @@ a:hover{
   max-width: 250px;
 }
 
+
+.thesis_block_no_outline a{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  display: inline-block; /*Stack links*/
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14pt;
+  margin: 10px;
+  min-width: 100%px;
+  max-width: 250px;
+}
+
 .thesis_block p.blurb{
   text-align: center;
   display: inline-block; /*Stack links*/
