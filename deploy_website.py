@@ -3,11 +3,11 @@ import os
 
 if __name__ == '__main__':
     files_to_upload = [
-        # 'about.html',
-        # 'football.html',
+        'about.html',
+        'football.html',
         'writing.html',
-        # 'index.html',
-        # 'test.html',
+        'index.html',
+        'glossary.html',
         # 'datadrivendecisions.html'
     ]
 
