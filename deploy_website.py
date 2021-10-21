@@ -7,7 +7,7 @@ if __name__ == '__main__':
         'football.html',
         'writing.html',
         'index.html',
-        'glossary.html',
+        'bettingguide.html',
         # 'datadrivendecisions.html'
     ]
 
