@@ -6,9 +6,9 @@ body {
 }
 
 ul li {
-  text-align: center;
-  list-style: inside;
-  padding-right: 50px;
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
 }
 
 h1 {
@@ -112,23 +112,6 @@ a:hover{
   margin: 10px;
   min-width: 100px;
   max-width: 250px;
-}
-
-.career_block a{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  text-align: center;
-  display: inline-block; /*Stack links*/
-  padding-top: 5px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  font-size: 14pt;
-  border: 2px solid black;
-  margin: 1px;
-  min-width: 100px;
-  max-width: 400px;
 }
 
 
