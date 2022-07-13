@@ -3,7 +3,7 @@ import os
 
 if __name__ == '__main__':
     files_to_upload = [
-        # 'about.html',
+        'about.html',
         'football.html',
         # 'writing.html',
         # 'index.html',
