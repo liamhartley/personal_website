@@ -8,7 +8,8 @@ if __name__ == '__main__':
         # 'writing.html',
         # 'index.html',
         # 'bettingguide.html',
-        'football.html'
+        # 'football.html',
+        'tiktok.html'
     ]
 
     s3 = boto3.resource('s3',
