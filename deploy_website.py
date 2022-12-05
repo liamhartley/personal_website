@@ -4,10 +4,10 @@ import os
 if __name__ == '__main__':
     files_to_upload = [
         # 'about.html',
-        'hireme.html',
-        # 'index.html',
+        # 'hireme.html',
+        'index.html',
         # 'bettingguide.html',
-        # 'football.html',
+        'football.html',
         # 'tiktok.html'
     ]
 
