@@ -6,9 +6,8 @@ if __name__ == '__main__':
         'about.html',
         # 'hireme.html',
         'index.html',
-        'bettingguide.html',
-        'football.html',
-        'bettingguide.html',
+        # 'football.html',
+        # 'bettingguide.html',
         # 'tiktok.html'
     ]
 
@@ -20,7 +19,7 @@ if __name__ == '__main__':
     for file in files_to_upload:
         print(f'Uploading: {file}')
         data = open(file, 'rb')
-        bucket = s3.Bucket('www.liamhartley.co.uk')
+        bucket = s3.Bucket('liamhartley.co.uk')
         response = bucket.put_object(Key=f'{file[:-5]}', Body=data, ContentType='text/html')
         print(response)
         print(f'Uploaded: {file}')
